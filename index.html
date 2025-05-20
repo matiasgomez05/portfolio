@@ -1,56 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MG - Portfolio</title>
+  <title>Matias Gomez | Portfolio</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <!-- Font Awesome Icons -->
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
+
 <body>
   <!-- Navigation -->
-  <header class="py-4">
-    <div class="container">
+  <header class="py-2">
+    <div class="container fixed-top mt-2">
       <div class="d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
-          <div class="logo-circle">
-            <div class="logo-inner"></div>
-          </div>
-          <span class="ms-2 fw-bold fs-4">MG</span>
+          <i class="fa fa-eercast fa-3x text-success" aria-hidden="true"></i>
+          <span class="ms-2 fw-bold fs-4">MG.</span>
         </div>
 
         <nav class="d-none d-md-flex">
           <ul class="list-unstyled d-flex mb-0">
             <li class="mx-3"><a href="#about" class="nav-link">About</a></li>
-            <li class="mx-3"><a href="#services" class="nav-link">Services</a></li>
             <li class="mx-3"><a href="#projects" class="nav-link">Projects</a></li>
-            <li class="mx-3"><a href="#about" class="nav-link">About</a></li>
+            <li class="mx-3"><a href="#experience" class="nav-link">Experience</a></li>
+            <li class="mx-3"><a href="#contactMe" class="nav-link">Contact Me</a></li>
           </ul>
         </nav>
 
-        <button class="btn btn-outline-light rounded-2 px-4 py-1">Download CV</button>
+        <button class="btn btn-outline-warning rounded-2 px-4 py-1">Download CV</button>
       </div>
     </div>
   </header>
 
-  <section class="py-5" id="home">
+  <section class="pt-5" id="about">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 mb-5 mb-md-0">
-            <h1 class="display-6 fw-bold mb-4">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 16L24 8L16 24L14 18L8 16Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg> 
-                Home
-            </h1>
-          <p class="text-muted mb-4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi aliquam est soluta quibusdam blanditiis sunt obcaecati non aut minus laudantium facere repudiandae quas assumenda consequuntur iure ipsam modi, veniam quia?
+          <h1 class="display-6 fw-bold text-success mb-4">
+            <img src="img/img01.png" width="64" height="64">
+            About Me
+          </h1>
+          <p class="text-white mb-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi aliquam est soluta quibusdam blanditiis
+            sunt obcaecati non aut minus laudantium facere repudiandae quas assumenda consequuntur iure ipsam modi,
+            veniam quia?
           </p>
-          <button class="btn btn-primary px-4 py-2 d-flex align-items-center">
+          <button class="btn btn-outline-warning px-4 py-2 d-flex align-items-center">
             Button
             <i class="bi bi-arrow-right ms-2"></i>
           </button>
@@ -61,179 +61,234 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12 py-5">
+          <div class="container d-flex justify-content-center">
+            <img src="img/hr.webp" class="img-fluid">
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="py-5" id="services">
+  <section id="projects">
     <div class="container">
-      <div class="row align-items-center mb-5">
+      <div class="row align-items-center">
         <div class="col-md-6">
-            <h1 class="display-6 fw-bold mb-4">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 16L24 8L16 24L14 18L8 16Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                </svg> 
-                Video title
-            </h1>
+          <h1 class="display-6 fw-bold text-success mb-4">
+            <img src="img/img02.png" width="64" height="64">
+            Projects
+          </h1>
         </div>
         <div class="col-md-6">
-          <p class="text-muted">
-            Video description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam esse et qui similique, autem velit laudantium praesentium officiis ipsum voluptatum? Assumenda totam sed magnam tempora dignissimos. Debitis, voluptas distinctio!
+          <p class="text-white">
+            Projects description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam esse et qui
+            similique, autem velit laudantium praesentium officiis ipsum voluptatum? Assumenda totam sed magnam tempora
+            dignissimos. Debitis, voluptas distinctio!
           </p>
         </div>
       </div>
 
-      <div class="position-relative video-container rounded-4 overflow-hidden">
-        <img src="https://placehold.co/600x400?text=Video" class="img-fluid w-100">
-      </div>
-    </div>
-  </section>
-
-  <section class="py-5" id="projects">
-    <div class="container">
-      <div class="d-flex align-items-center mb-5">
-        <div class="me-3">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M8 16L24 8L16 24L14 18L8 16Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </div>
-        <h2 class="display-6 fw-bold mb-0">Projects</h2>
-      </div>
-
       <div class="row g-4">
-        
         <div class="col-md-6 col-lg-4">
           <div class="service-card p-4 rounded-3">
-            <div class="service-icon service-icon-blue mb-3">
-              <span>□</span>
+            <div class="service-image mb-3">
+              <img src="https://placehold.co/360x240" class="img-fluid rounded-2 border border-warning border-3">
             </div>
-            <h3 class="fs-5 fw-bold mb-2">Project 1</h3>
-            <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perspiciatis quisquam aliquam, eum quam eius esse vel earum laborum molestiae magnam minima asperiores, a atque consequuntur natus similique, exercitationem libero.</p>
-          </div>
-        </div>
-        
-        <div class="col-md-6 col-lg-4">
-          <div class="service-card p-4 rounded-3">
-            <div class="service-icon service-icon-red mb-3">
-              <span>◎</span>
-            </div>
-            <h3 class="fs-5 fw-bold mb-2">Project 2</h3>
-            <p class="text-muted mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim velit assumenda, officia, animi beatae reprehenderit consequatur laboriosam quod aliquam eius rem sapiente? Atque laborum temporibus consequatur ipsum nisi ipsam recusandae!</p>
+            <h3 class="fs-5 fw-bold text-success mb-2">Project 1</h3>
+            <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perspiciatis
+              quisquam aliquam, eum quam eius esse vel earum laborum molestiae magnam minima asperiores, a atque
+              consequuntur natus similique, exercitationem libero.</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="service-card p-4 rounded-3">
-            <div class="service-icon service-icon-yellow mb-3">
-              <span>◉</span>
+            <div class="service-image mb-3">
+              <img src="https://placehold.co/360x240" class="img-fluid rounded-2 border border-warning border-3">
             </div>
-            <h3 class="fs-5 fw-bold mb-2">Project 3</h3>
-            <p class="text-muted mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur iusto commodi inventore est sequi necessitatibus possimus? Alias corporis ut, consectetur error quo fuga doloribus, architecto voluptates reprehenderit beatae totam iste!</p>
+            <h3 class="fs-5 fw-bold text-success mb-2">Project 2</h3>
+            <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim velit assumenda,
+              officia, animi beatae reprehenderit consequatur laboriosam quod aliquam eius rem sapiente? Atque laborum
+              temporibus consequatur ipsum nisi ipsam recusandae!</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="service-card p-4 rounded-3">
-            <div class="service-icon service-icon-yellow mb-3">
-              <span>◎</span>
+            <div class="service-image mb-3">
+              <img src="https://placehold.co/360x240" class="img-fluid rounded-2 border border-warning border-3">
             </div>
-            <h3 class="fs-5 fw-bold mb-2">Project 4</h3>
-            <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, saepe iure excepturi totam quos, earum eius commodi praesentium magni corrupti assumenda distinctio ducimus eum illo. Quam alias iure odio. Sed?</p>
+            <h3 class="fs-5 fw-bold text-success mb-2">Project 3</h3>
+            <p class="text-white mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur iusto commodi
+              inventore est sequi necessitatibus possimus? Alias corporis ut, consectetur error quo fuga doloribus,
+              architecto voluptates reprehenderit beatae totam iste!</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="service-card p-4 rounded-3">
-            <div class="service-icon service-icon-blue mb-3">
-              <span>◎</span>
+            <div class="service-image mb-3">
+              <img src="https://placehold.co/360x240" class="img-fluid rounded-2 border border-warning border-3">
             </div>
-            <h3 class="fs-5 fw-bold mb-2">Project 5</h3>
-            <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quis exercitationem ratione dolorem, reiciendis ea, incidunt libero est rem dolor a sed eligendi excepturi harum, maiores repellat aliquam. Eaque, a.</p>
+            <h3 class="fs-5 fw-bold text-success mb-2">Project 4</h3>
+            <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, saepe iure excepturi
+              totam quos, earum eius commodi praesentium magni corrupti assumenda distinctio ducimus eum illo. Quam
+              alias iure odio. Sed?</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-4">
           <div class="service-card p-4 rounded-3">
-            <div class="service-icon service-icon-red mb-3">
-              <span>◎</span>
+            <div class="service-image mb-3">
+              <img src="https://placehold.co/360x240" class="img-fluid rounded-2 border border-warning border-3">
             </div>
-            <h3 class="fs-5 fw-bold mb-2">Project 6</h3>
-            <p class="text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatem! Accusantium soluta laboriosam voluptas sed nisi dolorem animi repellendus nobis tempora placeat ipsum pariatur, tempore ducimus ut magnam cumque dolores.</p>
+            <h3 class="fs-5 fw-bold text-success mb-2">Project 5</h3>
+            <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quis exercitationem
+              ratione dolorem, reiciendis ea, incidunt libero est rem dolor a sed eligendi excepturi harum, maiores
+              repellat aliquam. Eaque, a.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card p-4 rounded-3">
+            <div class="service-image mb-3">
+              <img src="https://placehold.co/360x240" class="img-fluid rounded-2 border border-warning border-3">
+            </div>
+            <h3 class="fs-5 fw-bold text-success mb-2">Project 6</h3>
+            <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, voluptatem!
+              Accusantium soluta laboriosam voluptas sed nisi dolorem animi repellendus nobis tempora placeat ipsum
+              pariatur, tempore ducimus ut magnam cumque dolores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 py-5">
+        <div class="container d-flex justify-content-center">
+          <img src="img/hr.webp" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="display-6 fw-bold text-success mb-4">
+            <img src="img/img03.png" width="64" height="64">
+            Experience
+          </h1>
+        </div>
+        <div class="col-md-6">
+          <p class="text-white">
+            Experience description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam esse et qui
+            similique, autem velit laudantium praesentium officiis ipsum voluptatum? Assumenda totam sed magnam tempora
+            dignissimos. Debitis, voluptas distinctio!
+          </p>
+        </div>
+      </div>
+
+      <div class="col mb-5">
+        <ul class="timeline-with-icons">
+          <li class="timeline-item mb-5">
+            <span class="timeline-icon bg-success">
+              <i class="fa fa-sign-in" aria-hidden="true"></i>
+            </span>
+
+            <h5 class="fw-bold text-success">Last work</h5>
+            <p class="text-warning mb-2 fw-bold">11 March 2020</p>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              necessitatibus adipisci, ad alias, voluptate pariatur officia
+              repellendus repellat inventore fugit perferendis totam dolor
+              voluptas et corrupti distinctio maxime corporis optio?
+            </p>
+          </li>
+
+          <li class="timeline-item mb-5">
+
+            <span class="timeline-icon bg-success">
+              <i class="fa fa-sign-in" aria-hidden="true"></i>
+            </span>
+            <h5 class="fw-bold text-success">Next work</h5>
+            <p class="text-warning mb-2 fw-bold">19 March 2020</p>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              necessitatibus adipisci, ad alias, voluptate pariatur officia
+              repellendus repellat inventore fugit perferendis totam dolor
+              voluptas et corrupti distinctio maxime corporis optio?
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-12 py-5">
+          <div class="container d-flex justify-content-center">
+            <img src="img/hr.webp" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="py-5 position-relative" id="about">
+  <section class="py-5 position-relative" id="contactMe">
     <div class="container">
-      <div class="d-flex justify-content-between align-items-center mb-5">
-        <h2 class="display-6 fw-bold mb-0">Portofolio</h2>
-        <div class="circle-decoration-outline"></div>
-      </div>
-
-      <div class="row g-4">
-        <div class="col-md-4">
-          <div class="rounded-4 overflow-hidden">
-            <img src="https://via.placeholder.com/400x300" alt="Mobile app design" class="img-fluid w-100">
-          </div>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1 class="display-6 fw-bold text-success mb-4">
+            <img src="img/img04.png" width="64" height="64">
+            Contact Me
+          </h1>
         </div>
-        <div class="col-md-4">
-          <div class="rounded-4 overflow-hidden">
-            <img src="https://via.placeholder.com/400x300" alt="Website design" class="img-fluid w-100">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="rounded-4 overflow-hidden">
-            <img src="https://via.placeholder.com/400x300" alt="Web application" class="img-fluid w-100">
-          </div>
+        <div class="col-md-6">
+          <p class="text-white">
+            Experience description - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel veniam esse et qui
+            similique, autem velit laudantium praesentium officiis ipsum voluptatum? Assumenda totam sed magnam tempora
+            dignissimos. Debitis, voluptas distinctio!
+          </p>
         </div>
       </div>
 
-      <div class="d-flex justify-content-center mt-4">
-        <div class="pagination-dots">
-          <span class="pagination-dot active"></span>
-          <span class="pagination-dot"></span>
-          <span class="pagination-dot"></span>
+      <div class="row justify-content-between">
+        <div class="col">
+          <a href="https://github.com/matiasgomez05/">
+            <i class="fa fa-github fa-3x text-warning" aria-hidden="true"></i>
+          </a>
+          <p>/matiasgomez05</p>
+        </div>
+        <div class="col">
+          <a href="mailto:matias_gomez05@hotmail.com">
+            <i class="fa fa-envelope-o fa-3x text-warning" aria-hidden="true"></i>
+          </a>
+          <p>matias_gomez05@hotmail.com</p>
+        </div>
+        <div class="col">
+          <a href="https://www.linkedin.com/in/matiasgomez05" target="_blank">
+            <i class="fa fa-linkedin-square fa-3x text-warning"" aria-hidden=" true"></i>
+          </a>
+          <p>/in/matiasgomez05</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 py-5">
+          <div class="container d-flex justify-content-center">
+            <img src="img/hr.webp" class="img-fluid">
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="wave-bottom">
-      <svg width="100%" height="24" viewBox="0 0 100 24" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-        <path d="M0 0L25 12L50 0L75 12L100 0V24H0V0Z" fill="#19191b" />
-      </svg>
-    </div>
-  </section>
-
-  <section class="py-5 position-relative">
-    <div class="container">
-      <div class="text-center max-width-md mx-auto">
-        <h2 class="display-6 fw-bold mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </h2>
-        <button class="btn btn-primary px-4 py-2">Contact</button>
-      </div>
-    </div>
-    <div class="circle-decoration-outline position-absolute bottom-0 end-0 me-4 mb-4"></div>
   </section>
 
   <footer class="py-4 border-top border-dark">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row justify-content-between">
         <div class="col-md-4 mb-3 mb-md-0">
-          <div class="d-flex align-items-center">
-            <div class="logo-circle">
-              <div class="logo-inner"></div>
-            </div>
-            <span class="ms-2 fw-bold">MG.</span>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="d-flex justify-content-md-center">
-            <a href="#" class="text-muted me-3 small">Link1</a>
-            <a href="#" class="text-muted me-3 small">Link2</a>
-          </div>
-        </div>
-        <div class="col-md-4 text-md-end">
-          <p class="text-muted small mb-0">Matias Gomez © All Rights Reserved</p>
+            <i class="fa fa-eercast fa-1x text-success me-2" aria-hidden="true"></i>MG.
+            <span class="text-muted small ms-5">Matias Gomez © All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -242,4 +297,5 @@
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
